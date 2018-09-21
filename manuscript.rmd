@@ -151,7 +151,7 @@ gg_sub =
 
 pdf("figures/Supplemental_Figure_2_manuscript_raw.pdf", width=6.5, height=6)
 print(gg_sub)
-dev.off()
+#dev.off()
 
 #ggsave( 
 #	filename="figures/Supplemental_Figure_2_manuscript_raw.pdf", 
@@ -580,7 +580,7 @@ CWD performed all analyses and wrote the manuscript.
 
 ### Supplemental methods
 
-All code used for the analyses presented here is available in a git repository at https://github.com/caseywdunn/feuda_2017. The version of the code executed to present the results here has tag `cb_submission`. The randomized recoding analyses are in the `recoding/alternative` subdirectory of the git repository. 
+All code used for the analyses presented here is available in a git repository at https://github.com/caseywdunn/feuda_2017_response. The randomized recoding analyses are in the `recoding/alternative` subdirectory of the git repository. 
 
 The original SR-6 recoding scheme is "`APST CW DEGN FHY ILMV KQR`" [@Susko:2007ds], where spaces separate amino acids that are placed into the same group. This recoding is one member of a family of recodings, each with a different number of groups, based on clustering of the JTT matrix. The other recoding used by Feuda *et al.*, KGB-6 and D-6, are based on different matrices and methods [@Feuda:2017ew].
 
