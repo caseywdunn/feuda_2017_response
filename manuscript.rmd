@@ -2,10 +2,10 @@
 bibliography: manuscript.bib
 csl: current-biology.csl
 output:
-  github_document: default
   pdf_document:
     latex_engine: xelatex
   word_document: default
+  github_document: default
 ---
 
 ```{r setup, include=FALSE}
